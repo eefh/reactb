@@ -41,10 +41,16 @@ export default function Home() {
                           <li>Run datasets against available models</li>
                       </ul>
                   </div>
-                  <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066662400557862922/image.png"></img>
+                  <img
+                      className={styles.image}
+                      src="https://cdn.discordapp.com/attachments/666142372580556800/1066662400557862922/image.png"
+                  ></img>
               </div>
               <div className={styles.block}>
-                  <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066663120422064161/image.png"></img>
+                  <img
+                      className={styles.image}
+                      src="https://cdn.discordapp.com/attachments/666142372580556800/1066663120422064161/image.png"
+                  ></img>
                   <div className={styles.body}>
                       <h1 className={styles.bodyTitle}>
                           We enable community science
@@ -58,16 +64,22 @@ export default function Home() {
                           <li>
                               Design studies (a set of experiments) and workflow
                           </li>
-                          <li>Member opt-in and participate using hassle-free data collection & validation tools</li>
-                          <li>Members maintain ownership of their data and consent to usage</li>
+                          <li>
+                              Member opt-in and participate using hassle-free
+                              data collection & validation tools
+                          </li>
+                          <li>
+                              Members maintain ownership of their data and
+                              consent to usage
+                          </li>
                           <li>Publish results incrementally as data updates</li>
                       </ul>
                   </div>
               </div>
               <button className={styles.button}>SIGN UP FOR BETA</button>
               <div className={styles.footer}>
-                <h3>ore@usefusion.app</h3>
-                <h3>@NEUROFUSION Research Inc.</h3>
+                  <h3>ore@usefusion.app</h3>
+                  <h3>@NEUROFUSION Research Inc.</h3>
               </div>
           </div>
       </div>

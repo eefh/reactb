@@ -45,9 +45,11 @@
   align-items: center;
   font-size: 32px;
   margin: 150px;
+    margin-bottom: 64px;
 }
 .footer > h3 {
   margin: 10px;
+
 }
 .button {
   margin: 48px;
@@ -58,4 +60,16 @@
   border-radius: 64px;
   font-size: 24px;
   font-family: "Expletus Sans", sans-serif;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .block {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image {
+    width: 100vw;
+  }
 }
