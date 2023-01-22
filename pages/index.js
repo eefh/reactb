@@ -25,7 +25,7 @@ export default function Home() {
                           You focus on the fun part - exploring
                       </h1>
                       <p>We provide:</p>
-                      <ul>
+                      <ul className={styles.list}>
                           <li>
                               A playground of experiments for collecting brain
                               data
@@ -49,7 +49,7 @@ export default function Home() {
                       <h1 className={styles.bodyTitle}>
                           We enable community science
                       </h1>
-                      <ul>
+                      <ul className={styles.list}>
                           <li>
                               Taking brain (EEG) & behavior research out of the
                               lab
