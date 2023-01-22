@@ -44,8 +44,8 @@ export default function Home() {
                   <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066662400557862922/image.png"></img>
               </div>
               <div className={styles.block}>
+                  <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066663120422064161/image.png"></img>
                   <div className={styles.body}>
-                      <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066663120422064161/image.png"></img>
                       <h1 className={styles.bodyTitle}>
                           You focus on the fun part - exploring
                       </h1>
