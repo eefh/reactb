@@ -64,6 +64,11 @@ export default function Home() {
                       </ul>
                   </div>
               </div>
+              <button className={styles.button}>SIGN UP FOR BETA</button>
+              <div className={styles.footer}>
+                <h3>ore@usefusion.app</h3>
+                <h3>@NEUROFUSION Research Inc.</h3>
+              </div>
           </div>
       </div>
   );
