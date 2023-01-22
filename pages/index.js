@@ -47,23 +47,20 @@ export default function Home() {
                   <img src="https://cdn.discordapp.com/attachments/666142372580556800/1066663120422064161/image.png"></img>
                   <div className={styles.body}>
                       <h1 className={styles.bodyTitle}>
-                          You focus on the fun part - exploring
+                          We enable community science
                       </h1>
-                      <p>We provide:</p>
                       <ul>
                           <li>
-                              A playground of experiments for collecting brain
-                              data
+                              Taking brain (EEG) & behavior research out of the
+                              lab
                           </li>
+                          <li>"Run trials on yourself"</li>
                           <li>
-                              Instant & interactive plots of recorded data:
-                              <ul>
-                                  <li>health</li>
-                                  <li>eeg power</li>
-                                  <li>self sample results</li>
-                              </ul>
+                              Design studies (a set of experiments) and workflow
                           </li>
-                          <li>Run datasets against available models</li>
+                          <li>Member opt-in and participate using hassle-free data collection & validation tools</li>
+                          <li>Members maintain ownership of their data and consent to usage</li>
+                          <li>Publish results incrementally as data updates</li>
                       </ul>
                   </div>
               </div>
