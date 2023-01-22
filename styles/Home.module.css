@@ -24,6 +24,7 @@
 }
 .body {
   margin: 100px;
+  width: 500px;
 }
 .block {
   display: flex;
